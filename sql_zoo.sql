@@ -1,4 +1,55 @@
-<h1> The Join Operation </h1>
+   /* SELECT basics 
+   
+
+Table
+World: name, continent, area, population, gdp */
+   
+/* #1 Modify it to show the population of Germany */
+
+SELECT population FROM world
+WHERE name = 'Germany'
+
+/* #2 Show the name and the population for 'Sweden', 'Norway' and 'Denmark'. */
+
+SELECT name, population FROM world
+WHERE name IN ('Sweden', 'Norway', 'Denmark');
+
+
+/* #3 Show the country and the area for countries with an area between 200,000 and 250,000. */
+
+SELECT name, area FROM world
+WHERE area BETWEEN 200000 AND 250000
+  
+    
+    /* SELECT from WORLD
+
+/* #1 #/
+
+/* #2 */
+
+/* #3 */
+
+/* #4 */
+
+/* #5 */
+
+/* #6 */
+
+/* #7 */
+
+/* #8 */
+
+/* #9 */
+
+/* #10 */
+
+/* #11 */
+
+/* #12 */
+
+/* #13 */
+    
+    /* The Join Operation 
 
 Tables 
 game: id, mdate, stadium, team1, team2
